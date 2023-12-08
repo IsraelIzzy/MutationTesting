@@ -17,12 +17,17 @@ The current mutations applied has multiple functions such as
 I had no success in getting the code to work, 
 Possible Solution:
 - Create a CI framework
+After creating a CI, with python packages, which includes pytest,
+I tried to run the mutation test again however it failed.
+
 
 ## Analysis of the test suite's effectiveness ##
--N/A
+So far, since there is a break in my framework, my efficeny is zero,
+Until I find the bug that is causing this my problem, my efficeny will
+stay at zero.
 
 ## Recommendations for improving the test suite ##
--N/A
+One thing that would improve the test suite......
 
 ## Conclusion ##
 Currently, trying to get my mutation test to run, however once they run I will be able to provide solution.
