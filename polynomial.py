@@ -108,29 +108,29 @@ class Polynomial:
 
             raise ValueError("Bisection method did not converge within the maximum number of iterations.")
 
-poly = Polynomial([1, 0, 3])  # Coefficients: [1, 0, 3]
-result = poly.get_derivative_coefficients()
+#poly = Polynomial([1, 0, 3])  # Coefficients: [1, 0, 3]
+#result = poly.get_derivative_coefficients()
 # # Example usage:
-poly1 = Polynomial([3, 0, 2])  # Represents 3x^2 + 2
-poly2 = Polynomial([1, -1])    # Represents x - 1
+#poly1 = Polynomial([3, 0, 2])  # Represents 3x^2 + 2
+#poly2 = Polynomial([1, -1])    # Represents x - 1
 #
-print("poly1:", poly1)
-print("poly2:", poly2)
+#print("poly1:", poly1)
+#print("poly2:", poly2)
 #
-poly_sum = poly1 + poly2
-print("Sum:", poly_sum)
+#poly_sum = poly1 + poly2
+#print("Sum:", poly_sum)
 #
-poly_diff = poly1 - poly2
-print("Difference:", poly_diff)
+#poly_diff = poly1 - poly2
+#print("Difference:", poly_diff)
 #
-poly_product = poly1 * poly2
-print("Product:", poly_product)
+#poly_product = poly1 * poly2
+#print("Product:", poly_product)
 #
-x_value = 2
-result = poly1.evaluate(x_value)
-print(f"Evaluation of poly1 at x={x_value}: {result}")
+#x_value = 2
+#result = poly1.evaluate(x_value)
+#print(f"Evaluation of poly1 at x={x_value}: {result}")
 #
-poly = Polynomial([1, 0, -2])  # Represents x^2 - 2
-print(f"Evaluation of poly at a,b: {poly.evaluate(0)}, {poly.evaluate(5)}")
-root = poly.find_root_bisection(0, 5)
-print(f"Root of {poly} within [0, 5]: {root}")
+#poly = Polynomial([1, 0, -2])  # Represents x^2 - 2
+#print(f"Evaluation of poly at a,b: {poly.evaluate(0)}, {poly.evaluate(5)}")
+#root = poly.find_root_bisection(0, 5)
+#print(f"Root of {poly} within [0, 5]: {root}")
